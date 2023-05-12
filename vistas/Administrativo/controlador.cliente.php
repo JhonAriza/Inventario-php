@@ -58,7 +58,7 @@ if(isset($_POST['elimina'])){
            <center>
                     <h1>Cliente</h1>
                    <hr>
-                    <form name="cliente" action="" method="POST">
+                    <form action="controlador.cliente.php" action="" method="POST">
                         <table border="1">
                             <tr>
                                 <td bgcolor="000000"><font color="FFFFFF" face="arial" size="4">Código</font></td>                              

@@ -10,10 +10,10 @@ include("../../clases/administrativo/modelocliente.class.php");
   
 if($_POST)
 {
-//$obj->codigoCliente  = $_POST['codigoCliente '];
+$obj->codigoCliente  = $_POST['codigoCliente '];
   $obj->nombreCliente = $_POST['nombreCliente'];
-//$obj->apellidoCliente= $_POST['apellidoCliente'];
-//$obj->telefonoCliente= $_POST['telefonoCliente'];
+$obj->apellidoCliente= $_POST['apellidoCliente'];
+$obj->telefonoCliente= $_POST['telefonoCliente'];
 }
 ?>
 <?php
